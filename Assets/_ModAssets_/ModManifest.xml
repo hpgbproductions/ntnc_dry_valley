@@ -1,0 +1,61 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ModManifest buildID="52a353df-c2c9-4657-b6c6-918f27176f68">
+  <Mod name="ntnc_dry_valley" author="hpgbproductions" versionMajor="1" versionMinor="0" loadPriority="1000" lastUpdated="2023-06-02T05:39:09.0751798Z" apiVersion="1.0.0.0" description="">
+    <Steam title="" visibility="Public" previewPath="" language="English" tags="">
+      <description></description>
+    </Steam>
+    <GameObjects>
+      <GameObject name="Baratani Map" path="Assets/_ModAssets_/Baratani Map.prefab" />
+    </GameObjects>
+    <Assets>
+      <Asset path="Assets/Supply/physics/grass.physicMaterial" />
+      <Asset path="Assets/Supply/trees/mat/bark.mat" />
+      <Asset path="Assets/Supply/trees/mat/bark.png" />
+      <Asset path="Assets/Supply/trees/mat/leaves.mat" />
+      <Asset path="Assets/Supply/trees/mat/leaves.png" />
+      <Asset path="Assets/Supply/trees/Tree-SimplePine0_Textures/diffuse.png" />
+      <Asset path="Assets/Supply/trees/Tree-SimplePine0_Textures/normal_specular.png" />
+      <Asset path="Assets/Supply/trees/Tree-SimplePine0_Textures/shadow.png" />
+      <Asset path="Assets/Supply/trees/Tree-SimplePine0_Textures/translucency_gloss.png" />
+      <Asset path="Assets/Supply/trees/Tree-SimplePine1_Textures/diffuse.png" />
+      <Asset path="Assets/Supply/trees/Tree-SimplePine1_Textures/normal_specular.png" />
+      <Asset path="Assets/Supply/trees/Tree-SimplePine1_Textures/shadow.png" />
+      <Asset path="Assets/Supply/trees/Tree-SimplePine1_Textures/translucency_gloss.png" />
+      <Asset path="Assets/Supply/trees/Tree-SimplePine2_Textures/diffuse.png" />
+      <Asset path="Assets/Supply/trees/Tree-SimplePine2_Textures/normal_specular.png" />
+      <Asset path="Assets/Supply/trees/Tree-SimplePine2_Textures/shadow.png" />
+      <Asset path="Assets/Supply/trees/Tree-SimplePine2_Textures/translucency_gloss.png" />
+      <Asset path="Assets/Terrain/EasyRoads3D Scenes/Terrain Assets/Terrain Assets v3.1/Terrain Textures/ERDirtGrass1 NM.tga" />
+      <Asset path="Assets/Terrain/EasyRoads3D Scenes/Terrain Assets/Terrain Assets v3.1/Terrain Textures/ERDirtGrass1.tga" />
+      <Asset path="Assets/Terrain/Grass - Botum  ER tougemap-edit.tga" />
+      <Asset path="Assets/Terrain/Grass - Botum NM  ER.tif" />
+      <Asset path="Assets/Terrain/layer-dirt.terrainlayer" />
+      <Asset path="Assets/Terrain/layer-Grass.terrainlayer" />
+      <Asset path="Assets/Terrain/terrain00.asset" />
+      <Asset path="Assets/Terrain/treetops/layer-treetops.terrainlayer" />
+      <Asset path="Assets/Terrain/treetops/normal-linear.png" />
+      <Asset path="Assets/Terrain/treetops/src.png" />
+      <Asset path="Assets/TerrainToolsPack/Terrain Assets/TerrainTextures/dirt_mask.tif" />
+    </Assets>
+    <MaterialShaderMap>
+      <Material name="bark" shader="Nature/Tree Creator Bark" />
+      <Material name="leaves" shader="Nature/Tree Creator Leaves Fast" />
+    </MaterialShaderMap>
+    <Assemblies>
+      <Assembly name="ntnc_dry_valley-Assembly-CSharp-firstpass.dll" path="Assets/_ModAssets_/ntnc_dry_valley-Assembly-CSharp-firstpass.dll.bytes" isProjectAssembly="true" />
+      <Assembly name="ntnc_dry_valley-Assembly-CSharp.dll" path="Assets/_ModAssets_/ntnc_dry_valley-Assembly-CSharp.dll.bytes" isProjectAssembly="true" />
+    </Assemblies>
+    <Sections>
+      <SimplePlanesMod apiVersion="1.0.0.0">
+        <Maps>
+          <Map name="ntnc_dry_valley" description="" path="Assets/_ModAssets_/Baratani Map.prefab" allowSandbox="true" />
+        </Maps>
+        <Levels />
+        <Parts />
+        <DesignerPlugins />
+        <MapPlugins />
+        <PersistentObjects />
+      </SimplePlanesMod>
+    </Sections>
+  </Mod>
+</ModManifest>

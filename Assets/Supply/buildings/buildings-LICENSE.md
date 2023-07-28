@@ -1,0 +1,3 @@
+- The resources (meshes and Unity prefabs) can be freely used in SimplePlanes aircraft and mods.
+- The resources cannot be used for any commercial purposes.
+- The resources cannot be used for any non-commercial purposes that are not SimplePlanes aircraft or mods.
